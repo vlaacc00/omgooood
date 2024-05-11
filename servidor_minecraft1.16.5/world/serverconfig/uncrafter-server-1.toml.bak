@@ -1,0 +1,13 @@
+#Blacklisted items. Items in this list won't be able to be used in the uncrafter. This list is used only if the whitelist is empty.
+blacklist = []
+#Whitelisted items. Only these items are allowed to be used in the uncrafter. The blacklist will have no effect if the whitelist isn't empty.
+whitelist = []
+#Amount of ingredients that can be retrieved in the uncrafter (default=1)
+extractAmount = 9
+#Amount of ingredients that can be retrieved in the advanced uncrafter (default=3)
+advancedExtractAmount = 9
+#Amount of enchantment that can be retrieved in the advanced uncrafter (default=3)
+enchantmentExtractAmount = 9
+#Determine if the enchantments keep their level or are reduced to their first level (default=false)
+minimumLevelForEnchantments = false
+
